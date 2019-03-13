@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 
 import operator
+#import random
+import fractions
 
 
 operators = {
@@ -32,10 +34,11 @@ def test():
 
 def main():
     while True:
-        result = calculate(input("rpn calc> "))
-        print("Result: ", result)
+        result = calculate(str(input("rpn calc> ")))
+        print("Result: ", fractions.Fraction(result))
+    #print(random.randint(1, 100))
 
-    test()
+test()
 
 if __name__ == '__main__':
     main()
