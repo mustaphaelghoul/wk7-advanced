@@ -3,6 +3,7 @@ language: python
 script:
  - pip install coverage
  - coverage run test_rpn.py
+ - coverage report
  - python test_rpn.py
 python:
  - "3.5"  # 3.7 development branch
