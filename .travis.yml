@@ -1,7 +1,7 @@
 language: python
 # command to run tests
 script:
-  - python rpn.py test_rpn.py
+  - python test_rpn.py
 python:
   - "2.6"
   - "2.7"
