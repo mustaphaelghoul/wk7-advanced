@@ -1,11 +1,11 @@
 language: python
 # command to run tests
 script:
- - pip install coverage
- - pip install coveralls
- - coverage run test_rpn.py
- - coverage report
- - coveralls
+ #- pip install coverage
+ #- pip install coveralls
+ #- coverage run test_rpn.py
+ #- coverage report
+ #- coveralls
  - python test_rpn.py
 python:
  - "3.5"  # 3.7 development branch
