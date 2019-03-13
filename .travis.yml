@@ -1,7 +1,8 @@
 language: python
 # command to run tests
 script:
- - pip install coverage
+ - python pip install coverage
+ - python pip install coveralls
  - coverage run test_rpn.py
  - coverage report
  - python test_rpn.py
